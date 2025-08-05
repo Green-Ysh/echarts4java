@@ -9,23 +9,23 @@
     <version>2.0.0</version>
     <name>echarts4java</name>
     <description>java后端生成echarts</description>
-    <url>https://github.com/green-ysh/echarts4java</url>
+    <url>https://github.com/Green-Ysh/echarts4java</url>
     <developers>
         <developer>
-            <id>green-ysh</id>
-            <name>green-ysh</name>
+            <id>Green-Ysh</id>
+            <name>Green-Ysh</name>
             <roles>
                 <role>Project Manager</role>
                 <role>Developer</role>
             </roles>
             <email>linux.ysh@gmail.com</email>
-            <url>https://github.com/green-ysh</url>
+            <url>https://github.com/Green-Ysh</url>
         </developer>
     </developers>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/green-ysh/echarts4java/issues</url>
+        <url>https://github.com/Green-Ysh/echarts4java/issues</url>
     </issueManagement>
 
     <inceptionYear>2025</inceptionYear>
@@ -38,9 +38,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:green-ysh/echarts4java.git</connection>
-        <developerConnection>scm:git:git@github.com:green-ysh/echarts4java.git</developerConnection>
-        <url>https://github.com/green-ysh/echarts4java</url>
+        <connection>scm:git:git@github.com:Green-Ysh/echarts4java.git</connection>
+        <developerConnection>scm:git:git@github.com:Green-Ysh/echarts4java.git</developerConnection>
+        <url>https://github.com/Green-Ysh/echarts4java</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -78,7 +78,7 @@
                 <version>0.4.0</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <publishingServerId>green-ysh</publishingServerId>
+                    <publishingServerId>Green-Ysh</publishingServerId>
                     <tokenAuth>true</tokenAuth>
                 </configuration>
             </plugin>
@@ -120,7 +120,12 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>3.2.8</version>
                 <configuration>
+                    <executable>D:/software_install/dev_tool/GnuPG/bin/gpg.exe</executable>
                     <keyname>BD0F26A191E5C84455F295907D2862B4C1BCD990</keyname>
+                    <gpgArguments>
+                        <arg>--digest-algo=SHA256</arg>
+                        <arg>--armor</arg>
+                    </gpgArguments>
                 </configuration>
                 <executions>
                     <execution>
